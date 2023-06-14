@@ -1,0 +1,39 @@
+@media (max-width:1200px){
+
+
+}
+@media (max-width: 900px){
+
+    section{
+        padding: 0px 60px;
+    }
+    
+}
+
+@media (max-width:750px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+   
+    .informacao-principal{
+        height: 100%;
+    }
+    .informacao-geral{
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .informacao{
+        flex-direction: row;
+        width: 100%;
+    }
+    .anuncio{
+        flex-direction: column;
+        width: 100%;
+    }
+    .anuncio-texto{
+        width: 100%;
+    }
+
+}

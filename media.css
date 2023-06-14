@@ -1,20 +1,36 @@
 @media (max-width:1200px){
-
+    table{
+        
+        width: 96%;
+    }
+    
 
 }
 @media (max-width: 900px){
 
     section{
         padding: 0px 60px;
+       
     }
-    
+    table{
+        width: 50%;
+        height: 50%;
+    }
+  
+.tabela-centro {
+    height: 112vh;
+
+}
 }
 
 @media (max-width:750px){
     header{
         flex-direction: column;
         align-items: center;
-        width: 100%;
+        width: 100vw;
+    }
+    footer{
+        width: 100vw;
     }
    
     .informacao-principal{
@@ -37,3 +53,4 @@
     }
 
 }
+
